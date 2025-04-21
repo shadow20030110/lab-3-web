@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Hobbies</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            background-color: #f5f5f5;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        header {
+            background-color: #1294eb;
+            color: white;
+            padding: 2em;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            text-transform: uppercase;
+        }
+
+        .nav {
+            margin-top: 1em;
+        }
+
+        .nav button {
+            margin: 0 10px;
+            padding: 10px 25px;
+            border: none;
+            background-color: #dbb2ff;
+            color: #333;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .nav button:hover {
+            background-color: #ffc8dd;
+        }
+
+        .section {
+            display: flex;
+            justify-content: space-between;
+            margin: 2em 5%;
+            background-color: white;
+            padding: 1em;
+            border-radius: 10px;
+            gap: 1.5em;
+        }
+
+        .text-area, .img-area {
+            flex: 1;
+        }
+
+        .img-area img {
+            width: 50%;
+            border-radius: 10px;
+        }
+
+        .text-area p {
+            text-align: justify;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #eee;
+            padding: 1em;
+            margin-top: 2em;
+        }
+
+        @media (max-width: 768px) {
+            .section {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>My Hobbies</h1>
+    <div class="nav">
+        <button onclick="location.href='home.html'">Home</button>
+        <button onclick="location.href='hobby.html'">Hobbies</button>
+        <button onclick="location.href='campuslife.html'">Campus Life</button>
+    </div>
+</header>
+
+<div class="section">
+    <div class="img-area">
+        <img src="football.jpeg" alt="Chess">
+    </div>
+    <div class="text-area">
+        <p><strong>Football</strong><br><br>
+            Playing football isn’t just a sport for me—it’s a passion that builds both my physical and mental strength. Whether it’s a friendly match or a competitive game, I enjoy the thrill of teamwork, quick decision-making, and pushing myself to improve. It helps me stay fit, focused, and disciplined. On the field, I learn the importance of communication, resilience, and leadership—skills that are just as valuable in life and studies.
+        </p>
+    </div>
+</div>
+
+<div class="section">
+    <div class="text-area">
+        <p><strong>Drawing</strong><br><br>
+            Drawing is my creative escape. It allows me to turn ideas into visuals, whether I’m sketching from imagination or recreating what I see. It sharpens my focus and gives me peace of mind, especially after a long day of studying. I enjoy exploring different styles—cartoon, abstract, or realistic—and each drawing tells its own story. For me, drawing is not just about talent, but expression and growth.
+        </p>
+    </div>
+    <div class="img-area">
+        <img src="drawing.jpeg" alt="Music">
+    </div>
+</div>
+
+<div class="section">
+    <div class="img-area">
+        <img src="gaming.jpeg" alt="Photography">
+    </div>
+    <div class="text-area">
+        <p><strong>Gaming</strong><br><br>
+            Gaming is more than entertainment—it's a way to relax, have fun, and sometimes even learn. I enjoy strategy-based and multiplayer games that challenge my thinking and reflexes. It also keeps me connected with friends, as we often team up, share tactics, and compete online. Besides improving coordination and decision-making, games spark creativity and often introduce fascinating storylines and characters that inspire me.
+        </p>
+    </div>
+</div>
+
+<footer>
+    &copy; SUHAFIZAL BIN SUHAIMI 2025
+</footer>
+
+</body>
+</html>
