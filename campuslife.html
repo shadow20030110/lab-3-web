@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Campus Life</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            background-color: #fcf8f3;
+            font-family: 'Trebuchet MS', sans-serif;
+        }
+
+        header {
+            background-color: #198ae7;
+            color: white;
+            padding: 2em;
+            text-align: center;
+        }
+
+        .nav {
+            margin-top: 1em;
+        }
+
+        .nav button {
+            margin: 0 10px;
+            padding: 10px 25px;
+            border: none;
+            background-color: #ffb703;
+            color: #333;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .nav button:hover {
+            background-color: #f77f00;
+            color: white;
+        }
+
+        .campus-flex {
+            display: flex;
+            justify-content: space-between;
+            margin: 2em 5%;
+            background-color: white;
+            padding: 1em;
+            border-radius: 10px;
+            gap: 1.5em;
+        }
+
+        .campus-img, .campus-text {
+            flex: 1;
+        }
+
+        .campus-img img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .campus-text p {
+            text-align: justify;
+            line-height: 1.6em;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #ddd;
+            padding: 1em;
+            margin-top: 2em;
+        }
+
+        @media (max-width: 768px) {
+            .campus-flex {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>My Campus Life</h1>
+    <div class="nav">
+        <button onclick="location.href='home.html'">Home</button>
+        <button onclick="location.href='hobby.html'">Hobbies</button>
+        <button onclick="location.href='campuslife.html'">Campus Life</button>
+    </div>
+</header>
+
+<div class="campus-flex">
+    <div class="campus-img">
+        <img src="uthm.jpeg" alt="UTHM Campus">
+    </div>
+    <div class="campus-text">
+        <p>
+            My campus life at Universiti Tun Hussein Onn Malaysia (UTHM) has been an exciting and transformative journey. As a second-year Bachelor of Information Technology student, I’ve had the chance to experience both academic and personal growth in a supportive environment.
+            <br><br>
+            Staying at the student hostel has taught me a lot about independence and responsibility. I’ve made great friends from different backgrounds, and we often help each other through studies, share meals, and enjoy campus activities together. It’s like having a second family away from home.
+            <br><br>
+            UTHM offers a peaceful and well-organized campus. The facilities—like the libraries, computer labs, lecture halls, and outdoor spaces—make learning and relaxing equally enjoyable. I especially like walking around the campus in the evening. The greenery and calm atmosphere help me recharge after a busy day.
+        </p>
+    </div>
+</div>
+
+<footer>
+    &copy; SUHAFIZAL BIN SUHAIMI 2025
+</footer>
+
+</body>
+</html>

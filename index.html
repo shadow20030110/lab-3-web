@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Biodata</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: url('bg.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        header {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 1.5em 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+            letter-spacing: 2px;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav button {
+            padding: 10px 25px;
+            margin: 5px;
+            border: none;
+            background-color: #61d2f4;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        nav button:hover {
+            background-color: #264653;
+        }
+
+        .main-wrapper {
+            display: flex;
+            justify-content: space-between;
+            margin: 2em 5%;
+            gap: 2em;
+        }
+
+        .left-panel {
+            flex: 1;
+            background-color: rgba(255,255,255,0.9);
+            padding: 1em;
+            border: 2px solid #ddd;
+            text-align: center;
+        }
+
+        .left-panel img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .right-panel {
+            flex: 2;
+            background-color: rgba(255,255,255,0.9);
+            padding: 1em;
+            border: 2px solid #ddd;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 15px;
+        }
+
+        td {
+            padding: 10px;
+            border: 1px solid #aaa;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #157fe9;
+            padding: 1em;
+            margin-top: 2em;
+        }
+
+        @media (max-width: 768px) {
+            .main-wrapper {
+                flex-direction: column;
+            }
+
+            .left-panel, .right-panel {
+                margin: 0 auto;
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Personal Web</h1>
+        <nav>
+            <button onclick="location.href='home.html'">Home</button>
+            <button onclick="location.href='hobby.html'">Hobbies</button>
+            <button onclick="location.href='campuslife.html'">Campus Life</button>
+        </nav>
+    </header>
+
+    <div class="main-wrapper">
+        <div class="left-panel">
+            <img src="profile.jpg" alt="Profile Photo">
+            <p>Hi, I’m a student of BIT at UTHM. This site is part of my Web Development project to showcase my profile. Feel free to explore!</p>
+        </div>
+
+        <div class="right-panel">
+            <table>
+                <tr><td><strong>Full Name</strong></td><td>SUHAFIZAL BIN SUHAIMI</td></tr>
+                <tr><td><strong>Date of Birth</strong></td><td>01/10/2003</td></tr>
+                <tr><td><strong>Religion</strong></td><td>ISLAM</td></tr>
+                <tr><td><strong>Race</strong></td><td>MELAYU</td></tr>
+                <tr><td><strong>Street</strong></td><td>JALAN AMAN</td></tr>
+                <tr><td><strong>Town</strong></td><td>BUKIT SERAMPANG</td></tr>
+                <tr><td><strong>District</strong></td><td>TANGKAK</td></tr>
+                <tr><td><strong>State</strong></td><td>JOHOR</td></tr>
+                <tr><td><strong>Phone</strong></td><td>0177278497</td></tr>
+                <tr><td><strong>Social Media</strong></td><td>https://www.instagram.com/ijal_anime?igsh=Y283dDl0ZnNpamM2</td></tr>
+                <tr><td><strong>Website</strong></td><td>https://www.instagram.com/ijal_anime?igsh=Y283dDl0ZnNpamM2</td></tr>
+                <tr><td><strong>Course</strong></td><td>BIT @ UTHM</td></tr>
+                <tr><td><strong>Skills</strong></td><td>can do java programming</td></tr>
+                <tr><td><strong>Hobbies</strong></td><td>playing football,drawing,playing games</td></tr>
+                <tr><td><strong>2025 Wishlist</strong></td><td>want to be a software engineering</td></tr>
+            </table>
+        </div>
+    </div>
+
+    <footer>
+        &copy; SUHAFIZAL BIN SUHAIMIs 2025
+    </footer>
+
+</body>
+</html>
